@@ -1,0 +1,13 @@
+<h2 mat-dialog-title> Mensaje de confirmación </h2>
+<mat-dialog-content>
+  <p>¿Esta seguro de eliminar a {{hero.superhero}}?</p>
+  <!-- <mat-form-field>
+    <mat-label>Favorite Animal</mat-label>
+    <input matInput >
+  </mat-form-field> -->
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">No Thanks</button>
+  <span class="spacer"></span>
+  <button mat-button (click)="onYesClick()" cdkFocusInitial color="primary">Ok</button>
+</mat-dialog-actions>
